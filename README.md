@@ -48,7 +48,7 @@ Formatting: Organize the separated streams into folders named by species for Bir
 data/train/Pityriasis_gymnocephala/source_1.wav
 
 # Training
-Fine-tune BirdNet using the BirdNET analyzer
+Fine-tune BirdNet using the BirdNET analyzer GUI
 
 ```bash
 python BirdNET-Analyzer/train.py \
@@ -79,5 +79,5 @@ To validate results, we compare the original and separated signals. This is crit
 - Spectrogram Comparison: Use the provided tools/visualize_results.py to generate side-by-side spectrograms.
 
 ```bash
-python tools/visualize_results.py --input test_audio.wav
+python tools/visualize_results.py
 ```
